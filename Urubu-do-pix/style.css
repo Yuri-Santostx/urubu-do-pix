@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+.tabela{
+    background-color: white;
+}
+body{
+background: linear-gradient(45deg,#0081F9 70%, white);
+}
+.titulo{
+    font-family: "Hind", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    width: 100px;
+    color: white;
+    text-shadow: 4px 3px px #21B0A3;
+}
+.titulo-tabela{
+    font-family: "Hind", sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.pix-logo{
+    width: 200px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 25px 20px;
+    background: linear-gradient(45deg, #03457b, rgb(121, 111, 111));
+}
+.urubu-wallpaper{
+    width: 100%;
+    border-top: 2px solid rgb(30, 0, 255);
+}
+.tabela{
+    height: 480px;
+    width: 340px;
+    margin: 5% 7%;
+    border-radius: 20px;
+    box-shadow: 2px 5px 9px black;
+}
+.titulo-tabela{
+    font-size: 20px;
+    text-align: center;
+}
+.tabs{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 35px;
+    align-items: center;
+}
+.valor{
+    display: flex;
+    flex-direction: column;
+
+}
+.investimento, .horario, .lucro{
+    text-align: center;
+}
+.investimento{
+    border: 2px dashed #33BBAD;
+    padding: 6px;
+    border-radius: 10px;
+    font-family: "Hind", sans-serif;
+    font-weight: bold;
+}
+.lucro{
+    font-family: "Hind", sans-serif;
+    font-weight: bold; 
+    padding: 6px;
+    border-radius: 10px;
+    border: 2px dashed #33BBAD;
+}
+.horario{
+    font-family: "Hind", sans-serif;
+    font-weight: bold; 
+}
+.priceLucro{
+    color: #32CD32;
+}
+.valor-inves{
+    color: #4169E1;
+}
+.bnt-uru{
+    background-color: #33BBAD;
+    color: white;
+    padding: 10px;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 4px 4px 6px black;
+}
+.bnt-invest{
+    display: flex;
+    justify-content: center;
+}
+.reclame-aqui img{
+    width: 150px;
+}
+.certificado{
+    background: linear-gradient(#4169E1, white);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+.list-ben ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.list-ben li{
+    color: white;
+    font-family: "Hind", sans-serif;
+    font-weight: bold;
+
+}
